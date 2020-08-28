@@ -9,7 +9,6 @@ var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeBtn = document.querySelectorAll(".mode");
 
-
 init();
 
 function init() {
