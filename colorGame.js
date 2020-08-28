@@ -1,7 +1,7 @@
-var numSquares = 6;
+var numSquares = 3;
 var colors = [];
 var pickedColor;
-var colors = generateColors(6)
+var colors = generateColors(numSquares)
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.querySelector("#RGB");
 var messageDisplay = document.querySelector("#message");
