@@ -15,19 +15,19 @@ function init() {
     setupModeButton();
     setupSquares();
     reset();
-}
+};
 
 function setupModeButton() {
     for (var i = 0; i < modeBtn.length; i++) {
         modeBtn[i].addEventListener("click", function() {
-            modeBtn[0].classList.remove("selected")
-            modeBtn[1].classList.remove("selected")
-            this.classList.add("selected")
+            modeBtn[0].classList.remove("selected");
+            modeBtn[1].classList.remove("selected");
+            this.classList.add("selected");
             this.textContent == "Easy" ? numSquares = 3 : numSquares = 6;
             reset();
-        })
-    }
-}
+        });
+    };
+};
 
 function setupSquares() {
     for (var i = 0; i < squares.length; i++) {
@@ -44,7 +44,7 @@ function setupSquares() {
             };
         });
     };
-}
+};
 
 //reset logic
 function reset() {
@@ -66,13 +66,13 @@ function reset() {
 resetButton.addEventListener("click", function() {
     reset();
     resetButton.textContent = "New Colors";
-})
+});
 
 //color generation logic
 function changeColors(color) {
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = color;
-    }
+    };
 };
 
 function pickColor() {
