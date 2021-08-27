@@ -1,7 +1,6 @@
 # [Color-Guessing-Game](https://raw.githack.com/stntsai/Color-Guessing-Game/master/colorGame.html)
 
-Guessing the color like machine! Try to use only the number displayed on RGB to pick the matching color. Play at easy mode(3 colors to choose from) if you are freaking out XD.
-Play at Hard mode(6 colors to choose from) for more advanced challenge!!
+Guessing the color using RGB numbers! Try to comprehend the RGB number displayed on the top and pick the matching color. You can choose to plat in easy mode(3 colors to choose from) or in Hard mode(6 colors to choose from) for more advanced challenge!!
 
 
 Built with
